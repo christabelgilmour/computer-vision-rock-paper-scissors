@@ -1,5 +1,7 @@
 # Computer Vision Rock Paper Scissors Project
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ## Milestone 1
 
 To create the model we used [Teachable-Machine](https://teachablemachine.withgoogle.com), where we defined four classes: Rock, Paper, Scissors and Nothing. Any model will be most accurate when it is trained with large amounts of data, hence, a lot of pictures were taken for each class so the model is able to differentiate between these classes as accurately as possible.
@@ -14,9 +16,13 @@ We create a new virtual conda environment and download libraries including openc
 
 ## Milestone 4
 
-We write code to simulate a rock, paper, scissors game where the user is asked to enter one of these options and in turn the computer randomly chooses one of these options and we implement if-else statements to determine whether the user or computer has won the game, following the classic rules of the game.
+We write code to simulate a rock, paper, scissors game where the user is asked to enter one of these options and in turn the computer randomly chooses one of these options.
 
-<img width="525" alt="Screenshot 2022-10-10 at 14 48 49" src="https://user-images.githubusercontent.com/113252944/194881438-d3b0d32a-210c-4cab-a5c4-b9bed482ed3c.png">
+<img width="485" alt="Screenshot 2022-10-10 at 15 30 59" src="https://user-images.githubusercontent.com/113252944/194889949-e40e602b-d7db-46a7-a9fe-3f40bc948146.png">
+
+We then implement if-else statements to determine whether the user or computer has won, following the classic rules of the game.
+
+<img width="404" alt="Screenshot 2022-10-10 at 15 32 29" src="https://user-images.githubusercontent.com/113252944/194890248-8a9565fb-a8f6-43d4-bb57-03a979b32067.png">
 
 We also create a function called play which calls all three functions.
 
